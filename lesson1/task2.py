@@ -28,12 +28,11 @@ def host_range_ping(_subnet_address, start_address=None, end_address=None):
             ip_addresses = [address for address in ip_addresses if ip_addresses.index(address) < end_index]
         elif start_address is not None and end_address is not None:
             ip_addresses = [address for address in ip_addresses if start_index < ip_addresses.index(address) < end_index]
-        host_ping(ip_addresses)
-
+        return host_ping(ip_addresses)
 
 if __name__ == '__main__':
     # subnet_address = input('Type the subnet address with the mask (example: 192.168.0.0/24) - ')
     subnet_address = '192.168.0.0/24'
     start_address = '192.168.0.4'
     end_address = '192.168.0.7'
-    host_range_ping(subnet_address, end_address=end_address)
+    print(host_range_ping(subnet_address, end_address=end_address))

@@ -25,7 +25,7 @@ def host_ping(list_ip_addresses, timeout=500, requests=1, info=True):
         else:
             if info:
                 print(f"Network node '{address}' is not accesible.")
-            result.append((address, True))
+            result.append((address, False))
     return result
 
 
