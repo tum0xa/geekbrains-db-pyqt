@@ -16,8 +16,6 @@ def host_ping(list_ip_addresses, timeout=500, requests=1, info=True):
             address = ip_address(address)
         except ValueError:
             pass
-        except KeyboardInterrupt:
-            print("1")
         ping = Popen(f"ping {address} -w {timeout} -n {requests}", shell=False, stdout=PIPE)
         ping.wait()
         if ping.returncode == 0:
