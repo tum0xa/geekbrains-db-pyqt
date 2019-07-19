@@ -7,18 +7,20 @@ from ipaddress import ip_network, ip_address
 from task1 import host_ping
 
 
-def host_range_ping(_subnet_address, start_address=None, end_address=None):
-    start_index = 0
-    end_index = 255
+def host_range_ping(_subnet_address, start_address=None, end_address=None, info=True):
+    start_index = -1
+    end_index = 254
     try:
         subnet = ip_network(_subnet_address)
         ip_addresses = [subnet.network_address + i for i in range(1, subnet.num_addresses)]
         if start_address is not None:
             start_address = ip_address(start_address)
-            start_index = ip_addresses.index(start_address) - 1
+            if start_address in ip_addresses:
+                start_index = ip_addresses.index(start_address) - 1
         if end_address is not None:
             end_address = ip_address(end_address)
-            end_index = ip_addresses.index(end_address)+1
+            if end_address in ip_addresses:
+                end_index = ip_addresses.index(end_address)+1
     except Exception:
         print(f"Something wrong!")
     else:
@@ -28,11 +30,11 @@ def host_range_ping(_subnet_address, start_address=None, end_address=None):
             ip_addresses = [address for address in ip_addresses if ip_addresses.index(address) < end_index]
         elif start_address is not None and end_address is not None:
             ip_addresses = [address for address in ip_addresses if start_index < ip_addresses.index(address) < end_index]
-        return host_ping(ip_addresses)
+        return host_ping(ip_addresses, info=info)
 
 if __name__ == '__main__':
     # subnet_address = input('Type the subnet address with the mask (example: 192.168.0.0/24) - ')
-    subnet_address = '192.168.0.0/24'
+    subnet_address = '192.168.43.0/24'
     start_address = '192.168.0.4'
     end_address = '192.168.0.7'
-    print(host_range_ping(subnet_address, end_address=end_address))
+    host_range_ping(subnet_address, start_address=start_address, end_address=end_address)

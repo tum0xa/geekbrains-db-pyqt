@@ -30,5 +30,5 @@ def host_ping(list_ip_addresses, timeout=500, requests=1, info=True):
 
 
 if __name__ == '__main__':
-    ip_addresses = ['ya.ru', '10.2.3.5', '192.168.0.1', 'localhost']
+    ip_addresses = ['ya.ru', '10.2.3.5', '192.168.43.244', 'localhost']
     host_ping(ip_addresses)
