@@ -9,18 +9,26 @@ from ipaddress import ip_address
 from subprocess import Popen, PIPE
 
 
-def host_ping(list_ip_addresses):
+def host_ping(list_ip_addresses, timeout=500, requests=1, info=True):
+    result = []
     for address in list_ip_addresses:
         try:
             address = ip_address(address)
         except ValueError:
             pass
-        ping = Popen(f"ping {address} -w 500 -n 1", shell=False, stdout=PIPE)
+        except KeyboardInterrupt:
+            print("1")
+        ping = Popen(f"ping {address} -w {timeout} -n {requests}", shell=False, stdout=PIPE)
         ping.wait()
         if ping.returncode == 0:
-            print(f"Network node '{address}' is accesible.")
+            if info:
+                print(f"Network node '{address}' is accesible.")
+            result.append((address, True))
         else:
-            print(f"Network node '{address}' is not accesible.")
+            if info:
+                print(f"Network node '{address}' is not accesible.")
+            result.append((address, True))
+    return result
 
 
 if __name__ == '__main__':
