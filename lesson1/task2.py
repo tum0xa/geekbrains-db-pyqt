@@ -34,7 +34,7 @@ def host_range_ping(_subnet_address, start_address=None, end_address=None, info=
 
 if __name__ == '__main__':
     # subnet_address = input('Type the subnet address with the mask (example: 192.168.0.0/24) - ')
-    subnet_address = '192.168.43.0/24'
+    subnet_address = '192.168.0.0/24'
     start_address = '192.168.0.4'
     end_address = '192.168.0.7'
     host_range_ping(subnet_address, start_address=start_address, end_address=end_address)
