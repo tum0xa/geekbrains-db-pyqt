@@ -1,20 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c80ea48-1a1a-4eb3-82c8-8af0c9a38366" name="Default Changelist" comment="" />
+    <list default="true" id="1c80ea48-1a1a-4eb3-82c8-8af0c9a38366" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson3/messenger/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DB and PyQT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DB and PyQT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3/messenger/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/messenger/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lesson1/1.py">
+        <entry file="file://$PROJECT_DIR$/lesson3/messenger/storage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="720">
+              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson3/messenger/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson3/Пример ДЗ/server_database.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="57" column="67" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,7 +75,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -59,16 +102,8 @@
         <option value="$PROJECT_DIR$/lesson2/messenger/client.py" />
         <option value="$PROJECT_DIR$/lesson2/messenger/launcher.py" />
         <option value="$PROJECT_DIR$/lesson2/messenger/tools/metaclasses.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/DB and PyQT.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/lesson3/messenger/settings.py" />
+        <option value="$PROJECT_DIR$/lesson3/messenger/storage.py" />
       </list>
     </option>
   </component>
@@ -83,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,13 +125,38 @@
               <item name="DB and PyQT" type="b2602c69:ProjectViewProjectNode" />
               <item name="DB and PyQT" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DB and PyQT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB and PyQT" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB and PyQT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB and PyQT" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB and PyQT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB and PyQT" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+              <item name="messenger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB and PyQT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB and PyQT" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+              <item name="messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson3" />
@@ -106,7 +165,11 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Learning\Python\Geekbrains\DB and PyQT\lesson3" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Learning\Python\Geekbrains\DB and PyQT" />
       <recent name="E:\Learning\Python\Geekbrains\DB and PyQT\lesson2\messenger\tools" />
       <recent name="E:\Learning\Python\Geekbrains\DB and PyQT\lesson2\messenger" />
     </key>
@@ -123,29 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1">
-    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DB and PyQT" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1/1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.storage">
     <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DB and PyQT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,6 +201,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="E:\Learning\Python\Geekbrains\DB and PyQT\lesson1\task2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="storage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DB and PyQT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson3/messenger" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/messenger/storage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,11 +299,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.storage" />
         <item itemvalue="Python.task3" />
         <item itemvalue="Python.task2" />
         <item itemvalue="Python.task1" />
         <item itemvalue="Python.2" />
-        <item itemvalue="Python.1" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +319,8 @@
       <updated>1563522019558</updated>
       <workItem from="1563522028193" duration="10911000" />
       <workItem from="1563860824863" duration="10145000" />
-      <workItem from="1564116310864" duration="301000" />
+      <workItem from="1564116310864" duration="12536000" />
+      <workItem from="1564137972775" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="init commit with solution for the task 1 of the lesson 1">
       <created>1563524133116</created>
@@ -307,22 +371,29 @@
       <option name="project" value="LOCAL" />
       <updated>1563873104813</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Copied app's code">
+      <created>1564116727483</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564116727483</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21357000" />
+    <option name="totallyTimeSpent" value="33839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2568" y="-8" width="2576" height="1456" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.186407" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18799682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32955405" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32955405" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32955405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -336,8 +407,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3298887" />
+      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.3298887" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -414,13 +485,15 @@
     <MESSAGE value="fixed solution for the tasks 1,2 of the lesson 1" />
     <MESSAGE value="added solution for the tasks 3 of the lesson 1" />
     <MESSAGE value="added solution for the tasks of the lesson 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added solution for the tasks of the lesson 2" />
+    <MESSAGE value="Copied app's code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Copied app's code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DB_and_PyQT$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1563536641075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson1" />
     <SUITE FILE_PATH="coverage/DB_and_PyQT$launcher.coverage" NAME="launcher Coverage Results" MODIFIED="1563877047325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson2/messenger" />
     <SUITE FILE_PATH="coverage/DB_and_PyQT$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1563534940708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson1" />
     <SUITE FILE_PATH="coverage/DB_and_PyQT$2.coverage" NAME="2 Coverage Results" MODIFIED="1563525285685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson1" />
+    <SUITE FILE_PATH="coverage/DB_and_PyQT$storage.coverage" NAME="storage Coverage Results" MODIFIED="1564138165992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson3/messenger" />
     <SUITE FILE_PATH="coverage/DB_and_PyQT$1.coverage" NAME="1 Coverage Results" MODIFIED="1563524849120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson1" />
     <SUITE FILE_PATH="coverage/DB_and_PyQT$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1563535289759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson1" />
   </component>
@@ -536,9 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson3/messenger/logs/client.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson2/messenger/launcher.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -566,10 +636,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/messenger/logs/client.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/lesson1/1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/Пример ДЗ/server_database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="57" column="67" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/messenger/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/messenger/storage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -36,3 +36,6 @@ RESPONSE_400 = {
             RESPONSE: 400,
             ERROR: None
         }
+
+
+DEFAULT_DB = 'sqlite:///messenger'
