@@ -1,0 +1,41 @@
+2019-07-23 13:35:14,948 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:35:14,949 INFO server.py Server is running on :7777
+2019-07-23 13:35:52,031 INFO server.py The connection was established with address ('127.0.0.1', 50549) at 2019-07-23 13:35:52.031393
+2019-07-23 13:35:52,033 DEBUG server.py Message from the client: {'action': 'presence', 'time': 1563870952.031393, 'user': {'account_name': 'sad'}}
+2019-07-23 13:35:59,318 INFO server.py The connection was established with address ('127.0.0.1', 50550) at 2019-07-23 13:35:59.318629
+2019-07-23 13:35:59,320 DEBUG server.py Message from the client: {'action': 'presence', 'time': 1563870959.3186297, 'user': {'account_name': 'sdf'}}
+2019-07-23 13:36:02,863 INFO server.py The connection was established with address ('127.0.0.1', 50551) at 2019-07-23 13:36:02.863119
+2019-07-23 13:36:02,864 DEBUG server.py Message from the client: {'action': 'presence', 'time': 1563870962.8631198, 'user': {'account_name': 'sasad'}}
+2019-07-23 13:36:35,398 DEBUG server.py Message from the client: {'action': 'message', 'from': 'sad', 'to': 'sasad', 'time': 1563870995.1656861, 'mess_text': 'sadasdasdasd'}
+2019-07-23 13:36:35,398 INFO server.py The message was send to sasad from sad.
+2019-07-23 13:38:30,236 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:38:30,237 INFO server.py Server is running on :7777
+2019-07-23 13:39:05,448 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:39:05,449 INFO server.py Server is running on :7777
+2019-07-23 13:39:53,848 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:39:53,849 INFO server.py Server is running on :7777
+2019-07-23 13:40:29,749 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:40:29,750 INFO server.py Server is running on :7777
+2019-07-23 13:41:03,400 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:41:03,402 INFO server.py Server is running on :7777
+2019-07-23 13:41:47,633 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:41:47,634 INFO server.py Server is running on :7777
+2019-07-23 13:42:33,738 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:42:33,739 INFO server.py Server is running on :7777
+2019-07-23 13:43:14,643 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:43:14,644 INFO server.py Server is running on :7777
+2019-07-23 13:44:59,555 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:44:59,556 INFO server.py Server is running on :7777
+2019-07-23 13:45:24,723 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:45:24,724 INFO server.py Server is running on :7777
+2019-07-23 15:16:44,182 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 15:16:44,183 INFO server.py Server is running on :7777
+2019-07-23 15:17:00,273 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 15:17:00,274 INFO server.py Server is running on :7777
+2019-07-23 15:17:34,026 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 15:17:34,026 INFO server.py Server is running on :7777
+2019-07-23 15:17:34,031 INFO server.py The connection was established with address ('127.0.0.1', 51315) at 2019-07-23 15:17:34.031381
+2019-07-23 15:17:34,031 DEBUG server.py Message from the client: {'action': 'presence', 'time': 1563877054.031381, 'user': {'account_name': 'test0'}}
+2019-07-23 15:17:34,045 INFO server.py The connection was established with address ('127.0.0.1', 51316) at 2019-07-23 15:17:34.044347
+2019-07-23 15:17:34,045 DEBUG server.py Message from the client: {'action': 'presence', 'time': 1563877054.0443478, 'user': {'account_name': 'test1'}}
+2019-07-23 15:17:41,553 INFO server.py The client ('127.0.0.1', 51315) has been disconnected.

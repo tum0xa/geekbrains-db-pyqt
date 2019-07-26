@@ -1,0 +1,51 @@
+2019-07-23 13:35:14,948 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:35:14,951 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:35:52,030 INFO client.py Messenger is running: Server: 127.0.0.1:7777, Username: sad
+2019-07-23 13:35:52,033 INFO client.py Connection to server has been established.. Server response: 200 : OK
+2019-07-23 13:35:59,317 INFO client.py Messenger is running: Server: 127.0.0.1:7777, Username: sdf
+2019-07-23 13:35:59,321 INFO client.py Connection to server has been established.. Server response: 200 : OK
+2019-07-23 13:36:02,861 INFO client.py Messenger is running: Server: 127.0.0.1:7777, Username: sasad
+2019-07-23 13:36:02,864 INFO client.py Connection to server has been established.. Server response: 200 : OK
+2019-07-23 13:36:35,165 DEBUG client.py The dictionary for the message was formed: {'action': 'message', 'from': 'sad', 'to': 'sasad', 'time': 1563870995.1656861, 'mess_text': 'sadasdasdasd'}
+2019-07-23 13:36:35,166 INFO client.py The message has been send for the user sasad
+2019-07-23 13:36:35,399 INFO client.py The message has been received from sad:
+sadasdasdasd
+2019-07-23 13:38:30,248 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:38:30,252 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:38:30,257 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:39:05,462 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:39:05,467 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:39:05,475 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:39:53,855 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:39:53,859 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:40:29,765 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:40:29,769 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:40:29,774 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:41:03,415 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:41:03,415 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:41:03,420 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:41:47,653 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:41:47,655 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:41:47,659 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:42:33,746 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:42:33,752 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:42:33,761 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:43:14,653 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:43:14,663 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:44:59,561 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:44:59,563 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:45:24,738 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:45:24,738 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:45:24,739 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 13:45:24,740 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 15:16:44,194 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 15:16:44,197 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 15:17:00,280 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 15:17:00,281 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 15:17:34,029 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 15:17:34,030 INFO client.py Messenger is running: Server: 127.0.0.1:7777, Username: test0
+2019-07-23 15:17:34,031 INFO client.py Connection to server has been established.. Server response: 200 : OK
+2019-07-23 15:17:34,042 DEBUG decorators.py The function arg_parser has been called with arguments () , {}. Call was executed from  __main__
+2019-07-23 15:17:34,043 INFO client.py Messenger is running: Server: 127.0.0.1:7777, Username: test1
+2019-07-23 15:17:34,046 INFO client.py Connection to server has been established.. Server response: 200 : OK
+2019-07-23 15:17:41,669 CRITICAL client.py The connection to server was lost.
